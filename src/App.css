@@ -4,7 +4,10 @@
   height: 320px;
   border: 10px solid white;
   box-sizing: border-box;
-  outline: none !important;
+  outline: none;
   padding:"20px";
 }
 
+.slick-list:focus {
+  outline: none !important;
+}
