@@ -4,6 +4,7 @@ import "./App.css"
 import Header from "./Components/Header"
 import FeaturedMovies from "./Components/FeaturedMovies"
 import {Divider, Box} from "@material-ui/core"
+import PopularMovies from "./Components/PopularMovies"
 
 const FuntoonApp = ()=>{
     return(
@@ -14,7 +15,7 @@ const FuntoonApp = ()=>{
        <Box my={3}>
        <Divider />
        </Box>
-       <FeaturedMovies />
+       <PopularMovies />
 
        </div>
     )
